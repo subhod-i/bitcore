@@ -1,6 +1,6 @@
 {
   "bitcoreNode": {
-    "modules": ["./bitcoin"],
+    "modules": ["./dogecoin"],
     "services": {
       "api": {
         "wallets": {
@@ -9,18 +9,18 @@
       }
     },
     "chains": {
-      "BTC": {
+      "DOGE": {
         "mainnet": {
           "chainSource": "p2p",
           "trustedPeers": [
             {
               "host": "172.17.0.1",
-              "port": 8332
+              "port": 22556
             }
           ],
           "rpc": {
             "host": "172.17.0.1",
-            "port": 8333,
+            "port": 22555,
               "username": "sampleuser",
               "password": "samplepass"
           }
